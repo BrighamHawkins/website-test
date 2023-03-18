@@ -1,0 +1,29 @@
+hhtml, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-nav > li{
+  padding: 1em;
+}
+
+.topnav {
+  padding: 1em;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  /*letter-spacing: 3px;*/
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: center;
+  color: #000000;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  font-weight: bold;
+}
