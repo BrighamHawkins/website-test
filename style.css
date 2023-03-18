@@ -3,6 +3,12 @@ hhtml, body {
   width: 100%;
 }
 
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .navbar-nav > li{
   padding: 1em;
 }
@@ -27,3 +33,4 @@ hhtml, body {
 .topnav a.active {
   font-weight: bold;
 }
+
